@@ -520,6 +520,28 @@
                 height: 250px;
             }
         }
+
+        /* Load More Button */
+        .load-more-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .load-more-btn {
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+        .load-more-btn:hover {
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
@@ -590,7 +612,7 @@
             
             <!-- Recent Articles -->
             <section id="articulos-recientes">
-                <h2 class="section-title">Artículos Recientes</h2>
+                <h2 class="section-title">Todos Nuestros Artículos</h2>
                 <div class="blog-grid">
                     <!-- Artículo 1 -->
                     <article class="blog-card">
@@ -633,7 +655,7 @@
                             </div>
                         </div>
                     </article>
-                    
+
                     <!-- Artículo 4 -->
                     <article class="blog-card">
                         <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/q19tmzq517bc/historias-exito-4000-horas.jpg" alt="Historias éxito 4000 horas" class="blog-card-image">
@@ -647,8 +669,22 @@
                             </div>
                         </div>
                     </article>
-                    
+
                     <!-- Artículo 5 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/xmmxg7ldh1vv/sistema-monedas-views-fans.jpg" alt="Sistema monedas Views Fans" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Comunidad</span>
+                            <h3 class="blog-card-title">Sistema de Monedas Views Fans: Cómo Funciona la Economía de la Comunidad</h3>
+                            <p class="blog-card-excerpt">Descubre cómo funciona nuestro sistema de monedas y cómo puedes aprovecharlo para hacer crecer tu canal.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 11 min lectura</span>
+                                <a href="https://blog.viewsfans.app/sistema-monedas-views-fans" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 6 -->
                     <article class="blog-card">
                         <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/vjj7l27cg371/estrategias-seo-youtube-2025.jpg" alt="SEO YouTube 2025" class="blog-card-image">
                         <div class="blog-card-content">
@@ -661,17 +697,213 @@
                             </div>
                         </div>
                     </article>
-                    
-                    <!-- Artículo 6 -->
+
+                    <!-- Artículo 7 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/pqynkmmzbdwn/mejorar-retencion-audiencia-youtube.jpg" alt="Mejorar retención audiencia YouTube" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Retención</span>
+                            <h3 class="blog-card-title">Cómo Mejorar la Retención de Audiencia en YouTube: Guía 2025</h3>
+                            <p class="blog-card-excerpt">Estrategias comprobadas para mantener a tu audiencia viendo tus videos por más tiempo.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 13 min lectura</span>
+                                <a href="https://blog.viewsfans.app/mejorar-retencion-audiencia-youtube" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 8 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/n500d8edymdp/mi-canal-no-crece-soluciones-2025.jpg" alt="Mi canal no crece soluciones 2025" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Soluciones</span>
+                            <h3 class="blog-card-title">"Mi Canal No Crece": 7 Soluciones Reales que Funcionan en 2025</h3>
+                            <p class="blog-card-excerpt">Soluciones prácticas para superar el estancamiento y hacer despegar tu canal de YouTube.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 9 min lectura</span>
+                                <a href="https://blog.viewsfans.app/mi-canal-no-crece-soluciones-2025" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 9 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/u1tibsn3b7u5/errores-4000-horas-youtube-soluciones.jpg" alt="Errores 4000 horas YouTube soluciones" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Errores Comunes</span>
+                            <h3 class="blog-card-title">Errores que te Impiden Alcanzar las 4000 Horas en YouTube y Cómo Solucionarlos</h3>
+                            <p class="blog-card-excerpt">Identifica y corrige los errores más comunes que evitan que los creadores alcancen la monetización.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 10 min lectura</span>
+                                <a href="https://blog.viewsfans.app/errores-4000-horas-youtube-soluciones" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 10 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/13gbnfx514y2/como-alcanzar-4000-horas-youtube-apoyo-creadores.jpg" alt="Cómo alcanzar 4000 horas YouTube apoyo creadores" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Estrategias</span>
+                            <h3 class="blog-card-title">Cómo Alcanzar 4000 Horas en YouTube con el Apoyo de Otros Creadores</h3>
+                            <p class="blog-card-excerpt">Descubre el poder de la colaboración y el apoyo mutuo entre creadores para alcanzar tus metas.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 11 min lectura</span>
+                                <a href="https://blog.viewsfans.app/como-alcanzar-4000-horas-youtube-apoyo-creadores" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 11 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/zwppjh09si84/4000-horas-3-meses.jpg" alt="4000 horas 3 meses" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Planificación</span>
+                            <h3 class="blog-card-title">Cómo Alcanzar 4000 Horas de Reproducción en 3 Meses: Plan Comprobado</h3>
+                            <p class="blog-card-excerpt">Sigue este plan paso a paso diseñado para ayudarte a alcanzar la monetización en tiempo récord.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 12 min lectura</span>
+                                <a href="https://blog.viewsfans.app/4000-horas-3-meses" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 12 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/zrmqm794u4pk/4000-horas-organicas.jpg" alt="4000 horas orgánicas" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Crecimiento Orgánico</span>
+                            <h3 class="blog-card-title">Cómo Alcanzar 4000 Horas de Forma Orgánica sin Comprar Visitas</h3>
+                            <p class="blog-card-excerpt">Estrategias para crecer de manera natural y sostenible, construyendo una audiencia real.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 14 min lectura</span>
+                                <a href="https://blog.viewsfans.app/4000-horas-organicas" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 13 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/8iwdmhu880xj/apoyo-entre-creadores.jpg" alt="Apoyo entre creadores" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Comunidad</span>
+                            <h3 class="blog-card-title">El Poder del Apoyo entre Creadores: Cómo la Colaboración Acelera tu Crecimiento</h3>
+                            <p class="blog-card-excerpt">Descubre cómo trabajar con otros creadores puede multiplicar tus resultados en YouTube.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 9 min lectura</span>
+                                <a href="https://blog.viewsfans.app/apoyo-entre-creadores" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 14 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/vc0cakd62yl2/canal-estancado-solucion.jpg" alt="Canal estancado solución" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Soluciones</span>
+                            <h3 class="blog-card-title">Canal Estancado: Cómo Identificar el Problema y Reactivar tu Crecimiento</h3>
+                            <p class="blog-card-excerpt">Diagnóstico y soluciones para canales que han dejado de crecer en YouTube.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 11 min lectura</span>
+                                <a href="https://blog.viewsfans.app/canal-estancado-solucion" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 15 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/lh8fjwzc5489/imagen-4000-horas-views-fans.jpg" alt="Cómo alcanzar 4000 horas YouTube" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Guía Completa</span>
+                            <h3 class="blog-card-title">Cómo Alcanzar las 4000 Horas de Reproducción en YouTube: Guía Definitiva 2025</h3>
+                            <p class="blog-card-excerpt">La guía más completa con todo lo que necesitas saber para alcanzar la monetización de tu canal.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 16 min lectura</span>
+                                <a href="https://blog.viewsfans.app/como-alcanzar-4000-horas-youtube" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 16 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/b1drv7ykpm68/comunidad-views-fans-4000-horas.jpg" alt="Comunidad Views Fans 4000 horas" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Comunidad</span>
+                            <h3 class="blog-card-title">Comunidad Views Fans: Cómo Nuestra Plataforma te Ayuda a Alcanzar las 4000 Horas</h3>
+                            <p class="blog-card-excerpt">Descubre cómo funciona nuestra comunidad y cómo puede acelerar tu camino hacia la monetización.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 10 min lectura</span>
+                                <a href="https://blog.viewsfans.app/comunidad-views-fans-4000-horas" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 17 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/f6yy2czgt1il/mi-canal-no-crece-soluciones-reales-2025.jpg" alt="Mi canal no crece soluciones reales 2025" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Soluciones</span>
+                            <h3 class="blog-card-title">"Mi Canal No Crece": Soluciones Reales Basadas en Datos y Experiencia</h3>
+                            <p class="blog-card-excerpt">Análisis basado en datos reales de qué funciona y qué no para hacer crecer un canal en 2025.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 12 min lectura</span>
+                                <a href="https://blog.viewsfans.app/mi-canal-no-crece-soluciones-reales-2025" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 18 -->
                     <article class="blog-card">
                         <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/ial65v3qw3bd/monetizar-canal-youtube-2025.jpg" alt="Monetizar canal YouTube 2025" class="blog-card-image">
                         <div class="blog-card-content">
                             <span class="blog-card-category">Monetización</span>
-                            <h3 class="blog-card-title">Cómo Monetizar tu Canal de YouTube en 2025: Requisitos Actualizados</h3>
+                            <h3 class="blog-card-title">Cómo Monetizar tu Canal de YouTube en 2025: Requisitos Actualizados y Proceso</h3>
                             <p class="blog-card-excerpt">Guía completa sobre los requisitos actuales y el proceso para monetizar tu canal de YouTube este año.</p>
                             <div class="blog-card-meta">
                                 <span><i class="far fa-clock"></i> 9 min lectura</span>
                                 <a href="https://blog.viewsfans.app/monetizar-canal-youtube-2025" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 19 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/5crmtuxoj8j5/monetizar-sin-1000-suscriptores.jpg" alt="Monetizar sin 1000 suscriptores" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Monetización</span>
+                            <h3 class="blog-card-title">¿Se Puede Monetizar un Canal de YouTube sin 1000 Suscriptores? Alternativas 2025</h3>
+                            <p class="blog-card-excerpt">Explora las opciones disponibles para monetizar tu contenido antes de alcanzar los 1000 suscriptores.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 8 min lectura</span>
+                                <a href="https://blog.viewsfans.app/monetizar-sin-1000-suscriptores" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 20 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/jfi5kbe3dfz3/programa-partners-youtube-2025.jpg" alt="Programa partners YouTube 2025" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">YouTube Partner</span>
+                            <h3 class="blog-card-title">Programa de Partners de YouTube 2025: Todo lo que Necesitas Saber</h3>
+                            <p class="blog-card-excerpt">Información actualizada sobre el programa de partners de YouTube y sus beneficios.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 10 min lectura</span>
+                                <a href="https://blog.viewsfans.app/programa-partners-youtube-2025" class="read-more">Leer más</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Artículo 21 -->
+                    <article class="blog-card">
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/views-fans-lsxyd9/assets/aym0wyt9603j/views-fans-vs-otras-plataformas-comunidad-efectiva-youtube.jpg" alt="Views Fans vs otras plataformas" class="blog-card-image">
+                        <div class="blog-card-content">
+                            <span class="blog-card-category">Comparativas</span>
+                            <h3 class="blog-card-title">Views Fans vs Otras Plataformas: Por Qué Nuestra Comunidad es Más Efectiva</h3>
+                            <p class="blog-card-excerpt">Comparación detallada que muestra las ventajas de Views Fans sobre otras plataformas de crecimiento.</p>
+                            <div class="blog-card-meta">
+                                <span><i class="far fa-clock"></i> 11 min lectura</span>
+                                <a href="https://blog.viewsfans.app/views-fans-vs-otras-plataformas-comunidad-efectiva-youtube" class="read-more">Leer más</a>
                             </div>
                         </div>
                     </article>
